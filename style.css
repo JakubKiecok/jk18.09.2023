@@ -7,6 +7,8 @@
 }
 body{
     background-color: #333533;
+    margin: 0;
+    padding: 0%;
 }
 .flexbox{
     display: flex;
@@ -15,65 +17,63 @@ body{
     margin-left: 200px;
     justify-content: space-between;
     color: white;
-    font-size: 18px;
 }
 .img{
-    border: 2px #ffd100 solid;
+    outline: 3px #ffd100 solid;
     border-radius: 100%;
-    width: 220px;
-    height: 220px;
-    margin: 20px;
+    width: 240px;
+    height: 240px;
 }
 .box{
-    border: 5px #202020 solid;
+    outline: 3px #202020 solid;
     border-radius: 25px;
     background-color: #202020;
-    padding: 10px;
-    width: 260px;
+    padding: 20px;
+    width: 240px;
     transition: all .2s ease-in-out; 
 }
 .box:hover{
-    border: #ffd100 5px solid;
+    outline: #ffd100 3px solid;
 }
 .zobacz{
+    text-decoration: none;  
     background-color: #ffd100;
-    border: #ffd100 5px solid;
+    outline: #ffd100 3px solid;
     border-radius: 25px;
     color: black;
-    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     float: right;
-    transition: all .2s ease-in-out; 
+    transition: all .3s ease-in-out;
+    margin: 10px; 
 }
 .zobacz:hover{
-    border: #ffd100 5px solid;
-    background-color: #333533;
-    transform: scale(1.1);
-    color: white;
+    outline: #ffd100 3px solid;
+    background-color: #202020;
+    color: #ffd100;
 }
 .article{
     margin-right: 200px;
     margin-left: 200px;
     padding: 20px;
-    border: 5px #202020 solid;
+    outline: 3px #202020 solid;
     border-radius: 25px;
     background-color: #202020;
     color: white;
     margin-top: 50px;
-    font-size: 18px;
     padding-bottom: 40px;
     margin-bottom: 20px;
 }
-.box:hover{
-    border: #ffd100 5px solid;
-}
 .title{
-    font-size: 30px;
+    font-size: 25px;
+    font-weight: 800;
 }
 .footer{
     background-color: #ffd100;
-    font-size: 18px;
     text-align: center;
-    padding-top: 150px;
+    padding-top: 125px;
     padding-bottom: 150px;
     margin: 0;
 }
@@ -82,46 +82,48 @@ body{
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 200px;
-    font-size: 30px;
     margin: 0;
 }
+.title2{
+    font-size: 30px;
+}
 .stronaglowna{
-    background-color: #333533;
-    border: #333533 5px solid;
+    background-color: #202020;
+    outline: #202020 3px solid;
     border-radius: 25px;
     color: black;
-    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
     float: right;
     color: #ffd100;
     margin-right: 200px;
-    font-size: 18px;
     transition: all .2s ease-in-out; 
 }
 .stronaglowna:hover{
-    border: #333533 5px solid;
+    outline: #202020 3px solid;
     background-color: #ffd100;
     transform: scale(1.1);
     color: black;
 }
 .article2{
-    width: 50%;
+    width: 55%;
     margin-left: 200px;
     padding: 20px;
-    border: 1px #202020 solid;
+    outline: 1px #202020 solid;
     border-radius: 25px;
     background-color: #202020;
     color: white;
-    margin-top: 50px;
-    font-size: 18px;
+    margin-top: 25px;
     padding-bottom: 40px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 .img2{
     float: right;
-    margin-top: -550px;
+    margin-top: -440px;
     margin-right: 200px;
-    border: 2px #ffd100 solid;
     border-radius: 100%;
-    width: 500px;
-    height: 500px;  
+    width: 400px;
+    height: 400px;  
 }
