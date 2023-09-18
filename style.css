@@ -17,7 +17,7 @@ body{
     color: white;
     font-size: 18px;
 }
-img{
+.img{
     border: 2px #ffd100 solid;
     border-radius: 100%;
     width: 220px;
@@ -25,25 +25,36 @@ img{
     margin: 20px;
 }
 .box{
-    border: 1px #202020 solid;
+    border: 5px #202020 solid;
     border-radius: 25px;
     background-color: #202020;
     padding: 10px;
     width: 260px;
+    transition: all .2s ease-in-out; 
 }
-a{
+.box:hover{
+    border: #ffd100 5px solid;
+}
+.zobacz{
     background-color: #ffd100;
-    border: #ffd100 1px solid;
+    border: #ffd100 5px solid;
     border-radius: 25px;
     color: black;
     padding: 10px;
     float: right;
+    transition: all .2s ease-in-out; 
+}
+.zobacz:hover{
+    border: #ffd100 5px solid;
+    background-color: #333533;
+    transform: scale(1.1);
+    color: white;
 }
 .article{
     margin-right: 200px;
     margin-left: 200px;
     padding: 20px;
-    border: 1px #202020 solid;
+    border: 5px #202020 solid;
     border-radius: 25px;
     background-color: #202020;
     color: white;
@@ -51,6 +62,9 @@ a{
     font-size: 18px;
     padding-bottom: 40px;
     margin-bottom: 20px;
+}
+.box:hover{
+    border: #ffd100 5px solid;
 }
 .title{
     font-size: 30px;
@@ -62,4 +76,52 @@ a{
     padding-top: 150px;
     padding-bottom: 150px;
     margin: 0;
+}
+.header2{
+    background-color: #ffd100;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 200px;
+    font-size: 30px;
+    margin: 0;
+}
+.stronaglowna{
+    background-color: #333533;
+    border: #333533 5px solid;
+    border-radius: 25px;
+    color: black;
+    padding: 10px;
+    float: right;
+    color: #ffd100;
+    margin-right: 200px;
+    font-size: 18px;
+    transition: all .2s ease-in-out; 
+}
+.stronaglowna:hover{
+    border: #333533 5px solid;
+    background-color: #ffd100;
+    transform: scale(1.1);
+    color: black;
+}
+.article2{
+    width: 50%;
+    margin-left: 200px;
+    padding: 20px;
+    border: 1px #202020 solid;
+    border-radius: 25px;
+    background-color: #202020;
+    color: white;
+    margin-top: 50px;
+    font-size: 18px;
+    padding-bottom: 40px;
+    margin-bottom: 50px;
+}
+.img2{
+    float: right;
+    margin-top: -550px;
+    margin-right: 200px;
+    border: 2px #ffd100 solid;
+    border-radius: 100%;
+    width: 500px;
+    height: 500px;  
 }
