@@ -186,7 +186,7 @@ th, td{
     border: 0,5px #202020 solid;
 }
 th{
-    height: 25px;
+    padding: 10px;
 }
 td{
     padding: 25px;
