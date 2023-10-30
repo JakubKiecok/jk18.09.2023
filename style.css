@@ -1,4 +1,5 @@
 .header{
+    width: 100%;
     background-color: #ffd100;
     text-align: center;
     padding: 30px;
@@ -6,17 +7,23 @@
     margin: 0;
 }
 body{
+    display: flex;
     background-color: #333533;
     margin: 0;
     padding: 0%;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
 }
 .flexbox{
+    width: 77%;
     display: flex;
     margin-top: 30px;
-    margin-right: 200px;
-    margin-left: 200px;
+    margin-left: 10.5%;
     justify-content: space-between;
     color: white;
+    overflow-x: auto;
+    padding: 10px;
 }
 .img{
     outline: 3px #ffd100 solid;
@@ -55,8 +62,8 @@ body{
     color: #ffd100;
 }
 .article{
-    margin-right: 200px;
-    margin-left: 200px;
+    width: 77%;
+    margin-left: 10.5%;
     padding: 20px;
     outline: 3px #202020 solid;
     border-radius: 25px;
@@ -66,11 +73,16 @@ body{
     padding-bottom: 40px;
     margin-bottom: 20px;
 }
+.scroll{
+    max-height: 50vh;
+    overflow-y: scroll;
+}
 .title{
     font-size: 25px;
     font-weight: 800;
 }
 .footer{
+    width: 100%;
     background-color: #ffd100;
     text-align: center;
     padding-top: 125px;
@@ -126,4 +138,45 @@ body{
     border-radius: 100%;
     width: 400px;
     height: 400px;  
+}
+.tabelka{
+    width: 77%;
+    margin-left: 10.5%;
+    padding: 20px;
+    outline: 3px #202020 solid;
+    border-radius: 25px;
+    background-color: #202020;
+    color: white;
+    margin-top: 50px;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+}
+.scroll2{
+    display: flex;
+    overflow-x: scroll;
+    max-width: 100%;
+    max-height: 100vh;
+    flex-direction: row;
+}
+table{
+    border: #ffd100 1px solid;
+    margin: 5px;
+    min-width: 450px;
+}
+th{
+    border: #ffd100 1px solid;
+    padding: 5px;
+}
+td{
+    border: #ffd100 1px solid;
+    padding: 5px;
+}
+.mapa{
+    width: 100%;
+}
+@media only screen and (max-width:900px) {
+    .flexbox{
+        max-width: 77%;
+        padding: 0;
+    }
 }
