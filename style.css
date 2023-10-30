@@ -72,6 +72,7 @@ body{
     margin-top: 50px;
     padding-bottom: 40px;
     margin-bottom: 20px;
+    height: 500px;
 }
 .scroll{
     max-height: 50vh;
@@ -139,6 +140,7 @@ body{
     width: 400px;
     height: 400px;  
 }
+<<<<<<< HEAD
 .tabelka{
     width: 77%;
     margin-left: 10.5%;
@@ -180,3 +182,88 @@ td{
         padding: 0;
     }
 }
+=======
+.scroll1 {
+    overflow-y: scroll;
+    height: 450px;
+}
+.sticky{
+    position: sticky;
+    top: 0;
+    color: red;
+    background-color: white;
+}
+.tabela1{
+    float: left;
+    min-width: 50%;
+    height: 90%;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: #ffd100 2px solid;
+}
+.tabela1 tr:nth-child(even){
+    background-color: #ffd100;
+}
+.tabela1 tr:nth-child(odd){
+    color: white;
+}
+.tabela1 tr:nth-child(even) td:nth-child(odd){
+    color: green;
+}
+.tabela1 tr:nth-child(odd) td:nth-child(even){
+    color: red;
+}
+.tabela2{
+    float: left;
+    min-width: 50%;
+    height: 90%;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: #ffd100 2px solid;
+}
+.tabela2 tr:nth-child(odd){
+    background-color: #ffd100;
+}
+.tabela2 tr:nth-child(even){
+    color: white;
+}
+.tabela2 tr:nth-child(odd) td:nth-child(even){
+    color: green;
+}
+.tabela2 tr:nth-child(even) td:nth-child(odd){
+    color: red;
+}
+th, td{
+    border: 0,5px #202020 solid;
+}
+th{
+    padding: 10px;
+}
+td{
+    padding: 25px;
+}
+.miejscenatabelke{
+    margin-right: 200px;
+    margin-left: 200px;
+    outline: 3px #202020 solid;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-color: #202020;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 300px;
+    overflow-x: scroll;
+    width: 80%;
+}
+.mapa{
+    margin-bottom: 10px;
+}
+.row{
+    display: flex;
+    min-width: 100%;
+}
+>>>>>>> 7c252dc622c28efc550f1475aa9c091d2e667c22
